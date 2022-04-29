@@ -2,6 +2,10 @@ module.exports = () => {
   const rewrites = () => {
     return [
       {
+        source: "/reset",
+        destination: "http://141.95.153.155/reset",
+      },
+      {
         source: "/inscription",
         destination: "http://141.95.153.155/inscription",
       },
@@ -11,7 +15,7 @@ module.exports = () => {
       },
       {
         source: "/coffre",
-        destination: "http://141.95.153.155/coffre",
+        destination: "http://141.95.153.155/36",
       },
       {
         source: "/inscription2",
@@ -32,6 +36,10 @@ module.exports = () => {
       {
         source: "/dragon",
         destination: "http://141.95.153.155:7259/dragon",
+      },
+      {
+        source: "/inscription3",
+        destination: "http://141.95.153.155:7259/inscription",
       },
     ];
   };
