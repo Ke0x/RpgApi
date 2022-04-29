@@ -2,6 +2,7 @@
   "name": "rpgapi",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://141.95.153.155",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "http-proxy-middleware": "^2.0.6",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
